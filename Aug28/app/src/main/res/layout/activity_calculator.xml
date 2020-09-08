@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:paddingRight="20dp"
+        android:background="#fff"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textAlignment="viewEnd"
+        android:text="0"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textSize="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:weightSum="16">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/seven" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/four" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/one" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/decimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/eight" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/five" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/two" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/nine" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/six" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/three" />
+
+            <Button
+                style="@style/CalculatorNumbers"
+                android:text="@string/equals" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <Button
+                style="@style/CalculatorFunctions"
+                android:text="@string/delete" />
+
+            <Button
+                style="@style/CalculatorFunctions"
+                android:text="@string/division"
+                android:textSize="32dp" />
+
+            <ImageButton
+                style="@style/CalculatorFunctions"
+                android:src="@drawable/ic_baseline_clear_24" />
+
+            <ImageButton
+                style="@style/CalculatorFunctions"
+                android:src="@drawable/ic_baseline_remove_24" />
+
+            <ImageButton
+                style="@style/CalculatorFunctions"
+                android:src="@drawable/ic_baseline_add_24" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/calculatorAccent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
