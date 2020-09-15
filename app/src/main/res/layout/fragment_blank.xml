@@ -1,14 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".BlankFragment">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="3"
+    android:orientation="horizontal"
+    android:background="@color/calculatorAccent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_weight="1"
+        android:weightSum="5">
 
-</FrameLayout>
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="INV"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="sin"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="ln"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/pi"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="("/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="DEG"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="cos"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="log"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="e"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=")"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="%"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="tan"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="!"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="^"/>
+
+        <Button
+            style="@style/CalculatorExtraFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/square_root"/>
+
+    </LinearLayout>
+
+</LinearLayout>

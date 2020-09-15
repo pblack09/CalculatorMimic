@@ -15,7 +15,6 @@
         android:gravity="center"
         android:textAlignment="viewEnd"
         android:textColor="#000"
-        android:text=""
         android:textSize="80sp" />
 
     <LinearLayout
@@ -147,7 +146,8 @@
 
         </LinearLayout>
 
-        <View
+        <Button
+            android:id="@+id/button_extra_functions"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/calculatorAccent"

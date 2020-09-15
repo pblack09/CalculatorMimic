@@ -15,6 +15,6 @@
     <string name="delete">del</string>
     <string name="equals">=</string>
     <string name="decimal">.</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pi">\u03C0</string>
+    <string name="square_root">\u221A</string>
 </resources>
